@@ -1,7 +1,7 @@
 {
-  "name": "mostorodaddon",
+  "name": "mostorodaddonfixed",
   "version": "1.0",
-  "slug": "mostorodaddon",
+  "slug": "mostorodaddonfixed",
   "description": "mostorod on local database 1.3.33",
   "arch": ["amd64"],
   "startup": "application",
