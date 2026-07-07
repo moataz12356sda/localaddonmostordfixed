@@ -86,7 +86,7 @@ def SendPacketHoldingDataBase(packet) :
     Save_IndexNum(index)
     client.write_points(DataPoint)
 def SendPacketToServer (packet) :
-    packet = ConvertKSA(packet)
+    
     if ServerActive:
         try:
             s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
